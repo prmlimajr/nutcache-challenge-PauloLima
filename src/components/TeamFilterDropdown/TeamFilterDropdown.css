@@ -1,0 +1,9 @@
+.selectPicker {
+  width: 200px;
+  height: 40px;
+  border-radius: 4px;
+  padding: 0 20px;
+  background: #F0F0F0;
+  border-style: none;
+  cursor: pointer;
+}

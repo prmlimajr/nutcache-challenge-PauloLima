@@ -1,0 +1,76 @@
+.background {
+  background: url('../../assets/img/background.png') no-repeat center center/cover;
+  height: 100vh;
+  width: 100%;
+}
+
+.content {
+  height: calc(100vh - 100px);
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+header img {
+  width: 200px;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 50px;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+  margin: 20px 0;
+}
+
+.filters span {
+  margin: 0 10px 0 30px;
+}
+
+footer {
+  color: #FFF;
+  padding: 0 50px;
+}
+
+footer strong {
+  font-size: 2rem;
+}
+
+.contact a img {
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+table {
+  width: 100%;
+  padding: 0 50px;
+  border-spacing: 0;
+}
+
+td, th {
+  border-bottom: 1px solid #f0f0f0;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+td img {
+  cursor: pointer;
+}

@@ -1,0 +1,12 @@
+.empty {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.empty img {
+  width: 80px;
+  margin-bottom: 20px;
+}
